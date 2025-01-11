@@ -58,10 +58,10 @@ submit.addEventListener("click", (event) => {
 
 function showBooks() {
     
-    content.innerHTML = '';          
+    content.innerHTML = '';          //making the space for the new cards to be added 1 by 1
 
     myLibrary.forEach((book, index) => {                   //going through the array myLibrary
-        const card = document.createElement('div');        //creating a new card for each book created through the modal 
+        const card = document.createElement('div');        //creating a new card for each book created throught the modal 
         card.classList.add('card');                        //adding card to the class
 
         card.innerHTML =                                      //creating the text that will be displayed on the card

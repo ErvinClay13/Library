@@ -4,7 +4,7 @@ body {
     align-items: center;
     flex-direction: column;
     /* background-color: white; */
-    background-color: rgb(226, 226, 226);
+    background-color: burlywood;
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -20,9 +20,9 @@ body {
     display: flex;
     justify-content: space-between;
     justify-content: center;
-    background-color: gray;
-   
-    box-shadow: 5px 5px 40px black
+    background-color: rgb(165, 99, 42);
+    /* background-color: #42669df5; */
+    /* box-shadow: 5px 5px 40px #0055d4f5; */
     width: 100%;
     max-width: 800px;
     padding: 10px 20px;
@@ -31,9 +31,8 @@ body {
 }
 
 #addBook {
-    /* background-color: #03409af5; */
-    background-color: black;
-    box-shadow: 5px 5px 40px black;
+    background-color: #03409af5;
+    box-shadow: 5px 5px 40px #0055d4f5;
     height: 40px;
     width: 120px;
     border-radius: 20px;
@@ -45,7 +44,7 @@ body {
 
 #addBook:hover {
     transform: scale(1.1);
-    box-shadow: 2px 5px 40px black;
+    box-shadow: 2px 5px 40px #7800d4f5;
 }
 
 #content {
@@ -63,17 +62,20 @@ body {
     text-align: center;
     border-radius: 20px;
     padding: 15px;
-    /* background-color: #42669df5; */
-    background-color: rgb(97, 97, 97);
+    background-color: #42669df5;
     width: 100%;
     max-width: 300px;
-    /* box-shadow: 5px 15px 40px #0055d4f5; */
-    box-shadow: 5px 15px 40px black;
-    align-items: center;
+    box-shadow: 5px 15px 40px #0055d4f5;
 }
 
 .card-details {
     margin-bottom: 10px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .read, .delete {
@@ -82,10 +84,8 @@ body {
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: black;
-    /* background-color: #03409af5; */
+    background-color: #03409af5;
     cursor: pointer;
-    width: 200px;
 }
 
 .read:hover, .delete:hover {

@@ -61,7 +61,7 @@ function showBooks() {
     content.innerHTML = '';          
 
     myLibrary.forEach((book, index) => {                   //going through the array myLibrary
-        const card = document.createElement('div');        //creating a new card for each book created through the modal 
+        const card = document.createElement('div');        //creating a new card for each book created throught the modal 
         card.classList.add('card');                        //adding card to the class
 
         card.innerHTML =                                      //creating the text that will be displayed on the card

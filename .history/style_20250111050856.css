@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     justify-content: center;
     background-color: gray;
-   
+    /* background-color: #42669df5; */
     box-shadow: 5px 5px 40px black
     width: 100%;
     max-width: 800px;

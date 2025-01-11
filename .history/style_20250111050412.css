@@ -21,8 +21,8 @@ body {
     justify-content: space-between;
     justify-content: center;
     background-color: gray;
-   
-    box-shadow: 5px 5px 40px black
+    /* background-color: #42669df5; */
+    /* box-shadow: 5px 5px 40px #0055d4f5; */
     width: 100%;
     max-width: 800px;
     padding: 10px 20px;
@@ -67,9 +67,7 @@ body {
     background-color: rgb(97, 97, 97);
     width: 100%;
     max-width: 300px;
-    /* box-shadow: 5px 15px 40px #0055d4f5; */
-    box-shadow: 5px 15px 40px black;
-    align-items: center;
+    box-shadow: 5px 15px 40px #0055d4f5;
 }
 
 .card-details {
@@ -82,10 +80,10 @@ body {
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: black;
-    /* background-color: #03409af5; */
+    background-color: #03409af5;
     cursor: pointer;
     width: 200px;
+   
 }
 
 .read:hover, .delete:hover {
